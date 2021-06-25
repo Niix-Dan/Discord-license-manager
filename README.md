@@ -3,6 +3,6 @@
 
 
 ## Informações
-* Projeto simples feito em javascript, um bot do discord que pode criar licensas.
+* Projeto simples feito em javascript, um bot do discord que pode criar licenças.
 
 
