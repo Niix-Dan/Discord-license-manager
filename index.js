@@ -10,15 +10,7 @@ const http = require('http').createServer(app);
 
 
 // Configuração da Firebase
-var firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  databaseURL: process.env.databaseURL,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId
-};
+var firebaseConfig = process.env;
 
 // Inicialização do Firebase
 firebase.initializeApp(firebaseConfig);
